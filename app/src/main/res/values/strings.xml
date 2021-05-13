@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Marvel Challenge</string>
+    <string name="facebook_application_id">502168927888101</string>
+    <string name="fb_login_protocol_scheme">fb502168927888101</string>
+
+    <string name="character">Character</string>
+    <string name="description">Description</string>
+
+    <string name="characters">Characters</string>
+    <string name="events">Events</string>
+
+    <string name="appears_comics">APPEARS IN THESE COMICS</string>
+    <string name="comic_discuss">COMICS TO DISCUSS</string>
+
+    <string name="no_description">No description</string>
+    <string name="español_language">español</string>
+    <string name="img_not_available">http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available</string>
+</resources>
