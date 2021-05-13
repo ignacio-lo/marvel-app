@@ -42,7 +42,7 @@ class EventAdapter(private val context: Context, private val list: ArrayList<Eve
             Glide.with(context)
                 .load( item.thumbnail.path + extensionImg)
                 .centerCrop()
-                .placeholder(R.drawable.img_not_available)
+                .error(R.drawable.img_not_available)
                 .into(itemView.image_event)
 
             itemView.tv_event_name.text = item.title
