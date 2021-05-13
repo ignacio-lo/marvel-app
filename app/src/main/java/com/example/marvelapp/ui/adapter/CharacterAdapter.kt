@@ -43,13 +43,13 @@ class CharacterAdapter(private val context: Context, private val list: ArrayList
                 Glide.with(context)
                     .load(item.thumbnail.path + extensionJpg)
                     .fitCenter()
-                    .placeholder(R.drawable.img_not_available)
+                    .error(R.drawable.img_not_available)
                     .into(itemView.cv_image_charac)
             } else {
                 Glide.with(context)
                     .load(item.thumbnail.path + extensionImg)
                     .centerCrop()
-                    .placeholder(R.drawable.img_not_available)
+                    .error(R.drawable.img_not_available)
                     .into(itemView.cv_image_charac)
             }
 

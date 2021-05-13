@@ -67,7 +67,7 @@ class DetailActivity : AppCompatActivity() {
         Glide.with(this)
             .load(charac.thumbnail.path + extensionJpg)
             .fitCenter()
-            .placeholder(R.drawable.img_not_available)
+            .error(R.drawable.img_not_available)
             .into(binding.imgCharacDetail)
 
         if (charac.description == "") {
